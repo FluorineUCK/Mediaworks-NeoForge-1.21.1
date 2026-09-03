@@ -1,0 +1,92 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "LGPL-3.0-only"
+
+[[mixins]]
+config = "mediaworks.mixins.json"
+
+[[mods]]
+modId = "mediaworks"
+version = "${version}"
+displayName = "Mediaworks"
+logoFile = "icon.png"
+authors = "artynova"
+description = '''
+A Hex Casting addon focused on diverse casting utilities and quality-of-life tweaks.
+Ported to Minecraft 1.21.1 NeoForge while retaining the original registry ids and gameplay.
+'''
+displayURL = "https://github.com/artynova/mediaworks"
+issueTrackerURL = "https://github.com/artynova/mediaworks/issues"
+
+[[dependencies.mediaworks]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.234,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mediaworks]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mediaworks]]
+modId = "kotlinforforge"
+type = "required"
+versionRange = "[5.12.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mediaworks]]
+modId = "hexcasting"
+type = "required"
+versionRange = "[0.12.0-devel-pre-39,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.mediaworks]]
+modId = "geckolib"
+type = "required"
+versionRange = "[4.9.2,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.mediaworks]]
+modId = "curios"
+type = "optional"
+versionRange = "[9.5.1,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.mediaworks]]
+modId = "moreiotas"
+type = "optional"
+versionRange = "[0.1.1,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.mediaworks]]
+modId = "hexpose"
+type = "optional"
+versionRange = "[1.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.mediaworks]]
+modId = "supplementaries"
+type = "optional"
+# Supplementaries includes the Minecraft version in its published mod version
+# (for example 1.21.1-3.8.5), which is ordered below bare 3.0.0 by Maven/FML.
+# Keep the optional compatibility broad instead of rejecting valid 1.21.1 builds.
+versionRange = "[1.21.1-3.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.mediaworks]]
+modId = "patchouli"
+type = "optional"
+versionRange = "[1.21.1-93-NEOFORGE,)"
+ordering = "AFTER"
+side = "BOTH"

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mediaworks:reciprocation",
+    "mediaworks:media_shield",
+    "mediaworks:locale_magnification"
+  ]
+}

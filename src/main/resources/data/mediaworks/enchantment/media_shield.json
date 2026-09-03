@@ -1,0 +1,11 @@
+{
+  "anvil_cost": 6,
+  "description": { "translate": "enchantment.mediaworks.media_shield" },
+  "effects": {},
+  "max_cost": { "base": 45, "per_level_above_first": 8 },
+  "max_level": 4,
+  "min_cost": { "base": 20, "per_level_above_first": 8 },
+  "slots": [ "head" ],
+  "supported_items": "#mediaworks:magic_cloak",
+  "weight": 1
+}
