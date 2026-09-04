@@ -1,14 +1,3 @@
-<!-- pre39-port-header:start -->
-> **NeoForge 1.21.1 · Hex Casting `0.12.0-devel-pre-39` · Branch `pre39`**
->
-> **原项目 / Upstream:** [https://github.com/artynova/mediaworks](https://github.com/artynova/mediaworks)  
-> **移植基准 / Base:** [`f7c45ee52c1119711dad9b71006444b3e43d7d7b`](https://github.com/artynova/mediaworks/commit/f7c45ee52c1119711dad9b71006444b3e43d7d7b)  
-> **许可证 / License:** [LICENSE.md](LICENSE.md)  
-> **文档 / Documentation:** [移植说明](PORTING.md) · [上游原始文档、署名与版权清单](UPSTREAM.md)
->
-> This is a NeoForge port maintained by FluorineUCK, not the original upstream release. Original authorship and license notices are retained. Loader/version/build instructions in inherited upstream text describe the upstream project; the current port baseline is listed above.
-<!-- pre39-port-header:end -->
-
 # Mediaworks
 
 A [Hex Casting](https://github.com/gamma-delta/HexMod) addon with miscellaneous additions and quality-of-life
